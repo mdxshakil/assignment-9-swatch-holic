@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useReview from '../../hook/useReview';
+import useData from '../../hook/useData';
 import HeaderImage from '../../images/header-image.png';
 import Review from '../Review/Review';
 
 const Homepage = () => {
-    const [reviews, setReviews] = useReview('reviewdata.json');
+    const [reviews, setReviews] = useData('reviewdata.json');
+    console.log(reviews);
     const slicedReview = reviews.slice(0, 3);
     console.log(slicedReview);
     return (
@@ -26,7 +27,7 @@ const Homepage = () => {
             <div className='grid grid-cols-3 text-center mt-24'>
                 {
                     slicedReview.map(review => <Review
-                    key={review.id}
+                    key={review._id}
                     review={review}></Review>)
                 }
             </div>

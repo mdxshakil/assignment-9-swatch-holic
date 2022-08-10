@@ -1,10 +1,9 @@
 import React from 'react';
-import { Area, AreaChart, Bar, BarChart, CartesianGrid, ComposedChart, Legend, Line, LineChart, Pie, PieChart, RadialBar, RadialBarChart, Tooltip, XAxis, YAxis } from 'recharts';
-import useReview from '../../hook/useReview';
+import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
+import useData from '../../hook/useData';
 
 const Dashboard = () => {
-    const [data, setData] = useReview('chartData.json');
-    console.log(data);
+    const [data, setData] = useData('chartData.json');
     return (
         <div className='pt-32 grid grid-cols-2 gap-12'>
             <div className='linechart'>

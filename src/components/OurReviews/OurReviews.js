@@ -1,9 +1,9 @@
 import React from 'react';
-import useReview from '../../hook/useReview';
+import useData from '../../hook/useData';
 import Review from '../Review/Review';
 
 const OurReviews = () => {
-    const [reviews, setReviews] = useReview('reviewData.json');
+    const [reviews, setReviews] = useData('reviewData.json');
     return (
         <div>
             <div className='grid grid-cols-3 py-32'>
