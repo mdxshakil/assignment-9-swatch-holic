@@ -1,5 +1,5 @@
 # SwatchHolic - A trustful smartwatch company
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Link: (https://swatch-holic.netlify.app/).
 
 ## About this project
 
