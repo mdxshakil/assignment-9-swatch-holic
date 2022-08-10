@@ -3,7 +3,7 @@ import useReview from '../../hook/useReview';
 import Review from '../Review/Review';
 
 const OurReviews = () => {
-    const [reviews, setReviews] = useReview();
+    const [reviews, setReviews] = useReview('reviewData.json');
     return (
         <div>
             <div className='grid grid-cols-3 py-32'>

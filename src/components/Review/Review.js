@@ -4,7 +4,7 @@ import './Review.css'
 const Review = ({ review }) => {
     const { name, picture, comment } = review;
     return (
-        <div className='pb-24'>
+        <div className='pb-8'>
             <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-auto">
                 <div class="flex justify-end px-4 pt-4">
                 </div>
