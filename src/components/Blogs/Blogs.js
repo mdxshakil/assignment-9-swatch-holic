@@ -15,8 +15,8 @@ const Blogs = () => {
                 </div>
                 <div className='dark:bg-gray-800 text-white p-5 rounded-lg shadow-lg'>
                     <h1 className='text-3xl font-bold text-center mb-5'>Difference between inline, block and inline-block elements?</h1>
-                    <p className='text-xl text-justify'><b>Inline elements</b> always displays element in line and does not generates new line. Others elements can sit beside inline elements. Height and width property has no effect on inline elements. <br />
-                    <b>Inline-block</b> elements displays element inline-level block container. We can set height and width values to inline-block elements. Inline-block elements also doensot generates new line and let other element sit beside it. But as it name suggests it is an inline element but bahaves like bloc element.<br/><b>Block</b> element always display elements in a block. Means it takes the full width of available space does not matter what the size of content is. It always generaes new line for each block elements and any other element can no sit beside block elements. </p>
+                    <p className='text-xl text-justify'><b className="text-red-500">Inline</b> elements always displays element in line and does not generates new line. Others elements can sit beside inline elements. Height and width property has no effect on inline elements. <br />
+                    <b className="text-red-500">Inline-block</b> elements displays element inline-level block container. We can set height and width values to inline-block elements. Inline-block elements also doensot generates new line and let other element sit beside it. But as it name suggests it is an inline element but bahaves like bloc element.<br/><b className="text-red-500">Block</b> element always display elements in a block. Means it takes the full width of available space does not matter what the size of content is. It always generaes new line for each block elements and any other element can no sit beside block elements. </p>
                 </div>
             </div>
         </div>

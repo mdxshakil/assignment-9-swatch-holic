@@ -8,7 +8,6 @@ const Homepage = () => {
     const [reviews, setReviews] = useData('reviewdata.json');
     console.log(reviews);
     const slicedReview = reviews.slice(0, 3);
-    console.log(slicedReview);
     return (
         <div>
             <div className='flex items-center justify-between h-screen pb-5'>
